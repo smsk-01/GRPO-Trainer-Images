@@ -49,7 +49,7 @@ Customise the constants at the top, or replace them with **argparse** flags for 
 |----------------------------------|----------------|-----------------------------------------------------------|
 | `per_device_train_batch_size`    | `GRPOConfig`   | Limited by GPU memory – images are heavy!                |
 | `num_generations`                | `GRPOConfig`   | How many action samples to draw per prompt.              |
-| `reward_funcs`                   | trainer init   | List of callables returning a reward ∈ [0, 1].           |
+| `reward_funcs`                   | trainer init   | List of callables returning a reward ∈ {0, 1}.           |
 | `bf16` / `fp16`                  | `GRPOConfig`   | Use `bf16` on A100/H100 for speed and memory efficiency. |
 
 ---
