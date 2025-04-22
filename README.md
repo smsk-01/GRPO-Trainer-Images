@@ -20,7 +20,6 @@ Fine‑tune **Qwen 2.5‑VL** (or any Vision‑Language model with the same API
 
 ## 🗄 Repository layout
 
-```text
 .
 ├── GRPOImagesTrainer.py   # custom trainer + model wrapper
 ├── rewards.py             # reward functions
