@@ -63,23 +63,6 @@ Customise the constants at the top, or replace them with **argparse** flags for 
 
 ---
 
-## 📝 Todo
-- [ ] Add evaluation script (accuracy & mAP).  
-- [ ] Support segmentation masks.  
-- [ ] Gradient‑accumulation + multi‑GPU launch script.  
-- [ ] Publish a demo dataset & pre‑trained weights.  
-
----
-
-## 🤝 Contributing
-1. Fork the repo and create a feature branch:  
-   ```bash
-   git checkout -b feat/my-feature
-   ```  
-2. Commit your changes with clear messages.  
-3. Open a pull request – contributions are welcome!
-
----
 
 ## 📄 License
 Released under the **MIT License** – free to use, modify and distribute.
@@ -90,4 +73,3 @@ Released under the **MIT License** – free to use, modify and distribute.
 * [TRL library](https://github.com/huggingface/trl) for GRPO.  
 * [Qwen‑VL](https://huggingface.co/Qwen) team for the open‑source model.
 
-Happy training! 🎉
