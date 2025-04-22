@@ -16,15 +16,6 @@ Fine‑tune **Qwen 2.5‑VL** (or any Vision‑Language model with the same API
 * **Reward‑based optimisation** – leverages the `trl` library’s GRPO algorithm for RL‑style fine‑tuning.  
 * **Minimal codebase** – only three Python files, easy to read and customise.  
 
----
-
-## 🗄 Repository layout
-
-.
-├── GRPOImagesTrainer.py   # custom trainer + model wrapper
-├── rewards.py             # reward functions
-└── main.py                # training entry‑point
-
 
 ## 🔍 Under the hood
 
