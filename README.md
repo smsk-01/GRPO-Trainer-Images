@@ -19,6 +19,7 @@ Fine‑tune **Qwen 2.5‑VL** (or any Vision‑Language model with the same API
 
 ## 🔍 Under the hood
 
+
 ### `PersonalizedGRPOTrainer` (extends `trl.GRPOTrainer`)
 * Accepts an `image_processor` and an `images_root` folder.  
 * Overrides **`data_collator`** to  
@@ -54,13 +55,4 @@ Customise the constants at the top, or replace them with **argparse** flags for 
 
 ---
 
-
-## 📄 License
-Released under the **MIT License** – free to use, modify and distribute.
-
----
-
-## 🙏 Acknowledgements
-* [TRL library](https://github.com/huggingface/trl) for GRPO.  
-* [Qwen‑VL](https://huggingface.co/Qwen) team for the open‑source model.
 
